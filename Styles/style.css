@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #FFFCFF;
+    --color2: #247BA0;
+    --color3: #9A031E;
+    --color4: #1F271B;
+    --color5: #0E1C36;
+}
+
+body {
+    background: var(--color1);
+}
+
+
+header .container {
+    background: #247BA0;
+    padding: 40px;
+}
+
+.container #foto {
+    width: 100px;
+    border-radius: 100%;
+    box-shadow: 4px 4px 30px var(--color5);
+}
+
+.container h1 {
+    margin: 10px 0px;
+    color: var(--color1);
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFCFF;
+}
+
+#frame {
+    width: 100%;
+    min-height: 700px;
+    border: 0px ;
+}
+
